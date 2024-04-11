@@ -1,0 +1,92 @@
+.swiper-slide {
+    @apply flex justify-center items-center;
+  }
+  
+  .swiper-slide img {
+    @apply block w-full h-full object-cover;
+  }
+  
+.swiper-button-next,
+.swiper-button-prev {
+  @apply  pt-20 
+  ;
+}
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    @apply  pt-0 
+    ;
+  }
+  }
+  /*-- hs top header Start --*/
+.hs_top_header_main_Wrapper{
+	float:left;
+	width:100%;
+	background:#ffffff;
+	padding-bottom:30px;
+	position:relative;
+}
+.hs_header_logo_left{
+	float:left;
+	width:30%;
+}
+.hs_logo_wrapper{
+	float:left;
+}
+.hs_header_add_wrapper{
+	float:left;
+	width:220px;
+	margin-left:20px;
+  margin-top:12px;
+}
+.hs_header_add_icon{
+	float:left;
+	width:40px;
+	height:40px;
+	border:1px solid #ededed;
+	text-align:center;
+	line-height:50px;
+	font-size:24px;
+	color:#ff7e00;
+  padding:5px;
+  margin-right:12px;
+  margin-top:2px;
+}
+
+.hs_btn_wrapper{
+	float:right;
+}
+
+@media (max-width: 768px) {
+	.hs_header_logo_right {
+	  justify-content: flex-start; /* Adjust alignment on smaller screens */
+	}
+	
+	.hs_header_add_wrapper {
+	  margin-left: 0; /* Remove left margin on smaller screens */
+	  margin-top: 10px; /* Adjust top margin on smaller screens */
+	}
+  }
+  @media (max-width: 1020px) {
+	.hs_header_add_icon_cont{
+		font-size:12px
+	  }
+	.iconss{
+		width:25px
+	}
+	.hs_header_add_icon{
+		float:left;
+		width:32px;
+		height:32px;
+		border:1px solid #ededed;
+		text-align:center;
+		line-height:50px;
+		font-size:24px;
+		color:#ff7e00;
+	  padding:2px;
+	  margin-right:10px;
+	  margin-top:1px;
+	}
+  }
+
+  
