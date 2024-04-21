@@ -1,8 +1,6 @@
 import React from 'react'
 import Heading from './Heading';
 import { TypeAnimation } from 'react-type-animation';
-
-// import images
 import pic from '../../assets/Images/register.png'
 import Img1 from "../../assets/Images/costumer.png";
 import Img2 from "../../assets/Images/trademark.jpg";

@@ -1,4 +1,3 @@
-import React from 'react'
 import mm from '../../assets/Images/people02.png'
 import about from '../../assets/Images/abouts.png'
 import Footer from '../Footer/Footer'
@@ -20,7 +19,7 @@ function AboutUs() {
    <div className="max-w[1240px] mx-auto grid md:grid-cols-2 w-4/5">
    <img className="w-[500px] mx-auto h-56  my-4" src={about} alt=''/>
    <div className='flex flex-col justify-left'>
-   <p className="md:text-base text-base text-justify pt-3"> At <span className='text-brandPrimary font-semibold'>Sunira</span>, we're your comprehensive solution hub, 
+   <p className="md:text-base text-base text-justify pt-3"> At <span className='text-brandPrimary font-semibold'>Sunira</span>, we are your comprehensive solution hub, 
    merging expertise in company registration, astrology, and legal affairs. From laying the 
    foundation of your business through seamless company registration processes to navigating
    the complexities of astrological insights, and delving into legal intricacies concerning 

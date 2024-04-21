@@ -1,4 +1,3 @@
-import React from "react";
 import { Accordion } from "flowbite-react";
 import {  useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -80,8 +79,8 @@ function Home() {
               Welcome to Sunira, your cosmic compass for astrological guidance.
               Our expert astrologers offer personalized services to illuminate
               your path. From birth chart analyses to insightful consultations,
-              we're here to empower you on your journey. Discover the wisdom of
-              the stars with us.
+              we are here to empower you on your journey. Discover the wisdom of
+              the stars with us.
             </p>
             <Link to='/astrology'>
             <button className="py-3 px-6 text-sm border border-solid border-borderColor rounded-lg  font-bold">
@@ -198,7 +197,7 @@ function Home() {
             Welcome to our innovative platform dedicated to streamlining the
             company registration process in Nepal. Say goodbye to the tedious
             paperwork and lengthy procedures associated with registering your
-            company. But we don't stop there. Our services extend beyond just
+            company. But we do not stop there. Our services extend beyond just
             company registration. We offer a wide range of additional services
             related to company setup and compliance, including tax registration,
             obtaining necessary permits and licenses, drafting legal documents,

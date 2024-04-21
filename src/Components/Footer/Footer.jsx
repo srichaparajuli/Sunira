@@ -1,4 +1,3 @@
-import React from "react";
 import { FaMobileAlt } from "react-icons/fa";
 import {
   FaFacebook,
@@ -42,7 +41,7 @@ const Footer = () => {
             <p className="text-gray-600 dark:text-white/70  lg:pr-24 pt-3 text-justify">
             Welcome to Sunira, your one-stop destination for holistic solutions. 
             From expert astrological insights to legal expertise and seamless company registration services, 
-            we're here to guide you every step of the way. 
+            we are here to guide you every step of the way. 
             Explore our tailored services and embark on a journey of empowerment and success with Sunira
             </p>
             <a

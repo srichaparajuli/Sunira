@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import logo from "../../assets/Images/logo.png";
 import Dropdown from "./Dropdown";
 import Mobile from "./Mobile";

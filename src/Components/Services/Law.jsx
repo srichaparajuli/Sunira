@@ -1,5 +1,4 @@
-//import React from "react";
-import { Link } from "react-router-dom";
+
 import Banner from "./Banner";
 import law from "../../assets/Images/pngegg (7).png";
 import Footer from "../Footer/Footer";

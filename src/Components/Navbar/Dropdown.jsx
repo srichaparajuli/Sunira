@@ -1,4 +1,3 @@
-import React from "react";
 import { FaCaretDown } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
@@ -32,7 +31,7 @@ const DropdownLinks = [
     link: "/law",
   },
 ];
-const Dropdown = ({  }) => {
+const Dropdown = () => {
   return (
     <div className="relative flex flex-row max-md:hidden">
               <ul className="flex-row cursor-pointer sm:flex">
@@ -59,7 +58,8 @@ const Dropdown = ({  }) => {
                   {/* Dropdown Links */}
                   <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white shadow-md dark:bg-gray-900 p-2 dark:text-white mt-2">
                     <ul className="space-y-2">
-                      {DropdownLinks.map((data, index) => (
+                      {DropdownLinks.map((data) => (
+                        // eslint-disable-next-line react/jsx-key
                         <li>
                           <a
                             className="text-gray-500 hover:text-white duration-200 inline-block w-full p-2 hover:bg-brandPrimary rounded-md font-semibold"

@@ -1,4 +1,4 @@
-import React from "react";
+
 import astrologyBackground from "../../assets/Images/unnamed.jpg";
 import astrologer from "../../assets/Images/pandit.jpg";
 import Footer from "../Footer/Footer";

@@ -1,7 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 
-const Categories = ({ icon, category }) => {
+const Categories = ({icon,category}) => {
   const item = {
     hidden: { y: 20, opacity: 0 },
     visible: { y: 0, opacity: 1 },
